@@ -1,0 +1,49 @@
+{
+  "name": "simple_gulp",
+  "version": "0.0.1",
+  "description": "simple gulp",
+  "authors": [
+    "vhrebenko"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vhrebenkp/simple_gulp.git"
+  },
+  "scripts": {
+    "init": "npm install"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",   
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-uglify": "^2.1.1",
+    "gulp-useref": "^3.1.2",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^1.2.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
+}
