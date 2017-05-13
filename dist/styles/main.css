@@ -8852,9 +8852,20 @@ body {
   height: 200%;
   border-left: 1px solid #FFFFFF;
 }
+.overlay-image:after {
+  background-color: black;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 15px;
+  left: 15px;
+  opacity: .3;
+}
 /*HEADER*/
 .header {
-  height: 125px;
+  margin-bottom: .2rem;
 }
 /* SOCIAL BAR */
 .social-bar {
@@ -8923,10 +8934,22 @@ a.social-bar__icon {
 .menu-list {
   margin-bottom: 3rem;
 }
-.menu-list__nav .navbar-nav > li > a:hover,
-.menu-list__nav .navbar-nav > li > a:focus {
-  background-color: #FFFF00;
-  color: #FFC0CB;
+.menu-list.menu-list_complex {
+  margin-bottom: 0;
+}
+.page-navigation {
+  border-bottom: 1px solid grey;
+}
+.page-navigation .breadcrumb {
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+.page-navigation .breadcrumb a {
+  color: grey;
+}
+.page-navigation .breadcrumb li.active {
+  color: black;
+  font-weight: bold;
 }
 .menu-list__nav {
   font-size: 1.3em;
@@ -9078,6 +9101,10 @@ a.social-bar__icon {
 .gallery_product {
   margin-bottom: 30px;
   cursor: pointer;
+}
+.gallery_product a {
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .product_name {
   display: none;
@@ -9364,6 +9391,9 @@ a.articles__link:after {
     float: none;
     display: inline-block;
   }
+  .navigation {
+    border-top: none;
+  }
   .wrapper_dva_com {
     width: 30%;
     margin: 0 auto;
@@ -9393,9 +9423,6 @@ a.articles__link:after {
   .contacts {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-  .navigation {
-    border-top: none;
   }
   .copyright {
     font-size: .8em;
@@ -9452,16 +9479,10 @@ a.articles__link:after {
 .product__item {
   margin-bottom: 2rem;
 }
-.product__item .overlay {
-  width: 95%;
-  height: 100%;
-  position: absolute;
-  background-color: #000;
-  opacity: 0.5;
-}
 .product__item .product_name {
   display: block;
   position: absolute;
+  text-decoration: none;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -9470,6 +9491,10 @@ a.articles__link:after {
   font-weight: bold;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+.product__item:hover .product_name {
+  padding: 2rem;
+  border: 2px solid #ffffff;
 }
 .product__item_description {
   cursor: pointer;

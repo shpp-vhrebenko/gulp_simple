@@ -1,7 +1,9 @@
 /*HEADER*/
-.header {
-    height: 125px;
+.header { 
+    margin-bottom: .2rem;
 }
+
+
 
 /* SOCIAL BAR */
 .social-bar {
@@ -85,9 +87,23 @@ a.social-bar__icon {
     margin-bottom: 3rem;
 }
 
-.menu-list__nav .navbar-nav > li > a:hover, .menu-list__nav .navbar-nav > li > a:focus {
-    background-color: #FFFF00;
-    color: #FFC0CB;
+.menu-list.menu-list_complex {
+  margin-bottom: 0;
+}
+
+.page-navigation {
+    border-bottom: 1px solid grey;
+    .breadcrumb {
+        margin-bottom: 0px;
+        background-color: transparent;
+        a {
+            color: grey;
+        }
+        li.active {
+            color: black;
+            font-weight: bold;
+        }
+    }
 }
 
 .menu-list__nav {
@@ -274,6 +290,10 @@ a.social-bar__icon {
 {
     margin-bottom: 30px;
     cursor: pointer;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 }
 
 .product_name {
@@ -577,7 +597,10 @@ a.articles__link {
               display: inline-block;
             }
         }
-    }    
+    }  
+    .navigation {
+        border-top: none;
+    } 
 
     .wrapper_dva_com {
         width: 30%;
@@ -616,10 +639,7 @@ a.articles__link {
    .social-bar, .contacts {
         padding-top: 1rem;
         padding-bottom: 1rem;
-   }
-   .navigation  {
-        border-top: none;
-   }
+   } 
    .copyright {
         font-size: .8em;
    }

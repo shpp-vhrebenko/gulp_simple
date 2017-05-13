@@ -1,16 +1,12 @@
 /* PRODUCTS */
+
+
 .product__item {
-  margin-bottom: 2rem;
-    .overlay {
-        width:95%;
-        height:100%;
-        position:absolute;
-        background-color:#000;
-        opacity:0.5;  
-    }
+    margin-bottom: 2rem;    
     .product_name {
-        display: block;       
+        display: block;
         position:absolute;
+        text-decoration: none;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -19,7 +15,15 @@
         color: #FFFFFF;
         text-transform: uppercase; 
     }
+    &:hover {
+      .product_name {
+        padding: 2rem;
+        border: 2px solid #ffffff;
+      }
+    }
 }
+
+
 .product__item_description {
     cursor: pointer;
     &:hover > .product_name{
