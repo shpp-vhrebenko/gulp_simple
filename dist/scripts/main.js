@@ -1,5 +1,10 @@
 $(document).ready(function(){
     resize();
+
+    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+        $('#custom_carousel .controls li.active').removeClass('active');
+        $('#custom_carousel .controls li:eq(' + $(evt.relatedTarget).index() + ')').addClass('active');
+    });
 });
 
 $(window).resize(function(){

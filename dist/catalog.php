@@ -94,100 +94,10 @@
 										<p class="product-description__name">SIENA AVORIO</p>
 										<h5>Цена</h5>
 										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
+										<a href="product_card.php" class="button_read_more">Подробнее</a>
 								</div>
 						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
-						 <div class="catalog-products__item col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<div class="wrapper-product product-image">
-									 <img src="images/product.png" class="img-responsive">
-									 <p class="presence">Есть в наличии</p> 
-								</div>
-								<div class="wrapper-product product-description">
-										<h5>Спальня</h5>
-										<p class="product-description__name">SIENA AVORIO</p>
-										<h5>Цена</h5>
-										<p class="product-description__price">от 2700</p>
-										<button class="button_read_more">Подробнее</button>
-								</div>
-						 </div>
+						
 				</div>
 				
 		</div>

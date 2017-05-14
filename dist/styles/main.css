@@ -8863,6 +8863,22 @@ body {
   left: 15px;
   opacity: .3;
 }
+.header-title {
+  font-size: 2.1em;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.header-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #5e5e5e;
+}
 /*HEADER*/
 .header {
   margin-bottom: .2rem;
@@ -8939,6 +8955,7 @@ a.social-bar__icon {
 }
 .page-navigation {
   border-bottom: 1px solid grey;
+  margin-bottom: 3rem;
 }
 .page-navigation .breadcrumb {
   margin-bottom: 0px;
@@ -9058,22 +9075,6 @@ a.social-bar__icon {
 /* GALLERY */
 .gallery {
   margin-top: 3rem;
-}
-.header-title {
-  font-size: 2.1em;
-  font-family: 'Lora', serif;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
-  margin-bottom: 60px;
-}
-.header-title:after {
-  content: "";
-  position: absolute;
-  width: 7.5%;
-  left: 46.5%;
-  height: 45px;
-  border-bottom: 1px solid #5e5e5e;
 }
 .filter-button {
   font-size: 18px;
@@ -9535,13 +9536,15 @@ a.articles__link:after {
 .products {
   margin-bottom: 2rem;
 }
-.button_read_more {
+a.button_read_more {
   display: block;
   width: 100%;
   border: 1px solid #e30614;
   color: #e30614;
   background-color: #ffffff;
   font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
 }
 .button_read_more:hover {
   background-color: #e30614;
@@ -9557,4 +9560,132 @@ a.articles__link:after {
 }
 .history-bar.navbar-nav {
   text-align: left;
+}
+.description__content h5 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.description__list {
+  list-style: none;
+}
+.description__list li {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: grey;
+}
+#custom_carousel.carousel {
+  height: 390px;
+}
+#custom_carousel .carousel-inner {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#custom_carousel .item {
+  color: #000;
+  background-color: #eee;
+}
+#custom_carousel .nav > li > a {
+  padding: 0px;
+}
+#custom_carousel .controls {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  background: transparent;
+}
+#custom_carousel .controls a img {
+  width: 100%;
+  height: auto;
+}
+#custom_carousel .controls li {
+  display: table-cell;
+  width: 1%;
+  max-width: 90px;
+  padding: 0 10px 0 10px;
+}
+#custom_carousel .controls li.active {
+  /*   background-color: #eee;
+  border-top: 3px solid orange; */
+}
+#custom_carousel .controls a small {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.product-details__description {
+  position: relative;
+  height: 390px;
+  padding-left: 1rem;
+}
+.product-details__description header h5 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+.product-details__description .available {
+  color: #53B37B;
+  font-style: italic;
+}
+.product-details__description .price-normal {
+  margin-top: 6rem;
+}
+.product-details__description .price-normal p {
+  font-size: 1.2em;
+}
+.product-details__description .price-normal p.normal {
+  font-size: 1.5em;
+  color: #53B37B;
+}
+.product-details__description .price-discount {
+  margin-top: 2rem;
+}
+.product-details__description .price-discount p {
+  font-size: 1.2em;
+}
+.product-details__description .price-discount p.discount {
+  font-size: 1.5em;
+  color: #B94A50;
+}
+.product-details__description .order-product {
+  position: absolute;
+  bottom: 1rem;
+  height: 45px;
+  margin-top: 2rem;
+  font-size: 1.5em;
+  background: #ffffff;
+  color: #B94A50;
+  border: 2px solid #B94A50;
+}
+.product-details__description .order-product:hover {
+  color: #ffffff;
+  background: #B94A50;
+  transition: all .5s;
+}
+.product__description .read-more {
+  margin-bottom: 1rem;
+}
+.footer-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  color: #000000;
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+.footer-icon:hover {
+  color: #B94A50;
+}
+.content {
+  margin-bottom: 2rem;
 }
