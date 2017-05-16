@@ -1,0 +1,164 @@
+/* ABOUT US */
+
+.about-us__description {
+    h4 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+    margin-bottom: 2rem;
+}
+
+.about-us_carousel {
+    margin-bottom: 2rem;
+}
+
+#about-us_carousel .nav > li > a {
+    padding: 0px;
+}
+
+#about-us_carousel.carousel {    
+    height: 480px; 
+}
+
+#about-us_carousel .carousel-inner {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    img {
+        height: 300px;
+        max-width: 100%;
+    }
+} 
+
+#about-us_carousel .controls {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 15px 0 15px;
+    margin: 0;
+    height: 160px;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    background: transparent;
+    a {
+        img {
+            max-width: 100%;
+            height: 160px;
+        }                
+    }  
+}
+
+#about-us_carousel .controls li {
+    display: table-cell;
+    width: 1%;
+    max-width: 90px;
+    padding: 0 10px 0 10px;
+    &:first-child {
+       padding: 0 10px 0 0px; 
+    }  
+    &:last-child {
+        padding: 0 0px 0 10px;
+    }  
+}
+
+#custom_carousel .controls li.active {
+  /*   background-color: #eee;
+  border-top: 3px solid orange; */
+}
+
+#about-us_carousel {
+    .carousel-control {
+        position: absolute;        
+        width: 40px;
+        height: 160px;
+        background-color: grey;
+        background-image: none;
+        opacity: .5;
+        margin-top: 0;
+        &.left {           
+            top: 0;
+            left: 15px;
+            &:hover {
+                opacity: 1;
+                transition: all .5s;
+            }
+            .previous {
+                position: absolute;
+                top: 40%;
+                left: -40px;
+                font-weight: bold;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 7%;
+                    left: -10%;
+                    top: 5%;
+                    height: 100%;
+                    border-left: 1px solid #FFFFFF;
+                }
+            }
+        }
+        &.right {
+            top: 0;
+            right: 15px;
+            &:hover {
+                opacity: 1;
+                transition: all .5s;
+            }
+            .next {
+                position: absolute;
+                top: 40%;
+                right: -30px;
+                font-weight: bold;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 7%;
+                    left: -10%;
+                    top: 5%;
+                    height: 100%;
+                    border-left: 1px solid #FFFFFF;
+                }
+            }
+        }  
+
+    }  
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 767px) {
+    #about-us_carousel .controls {
+        a {
+            img {
+                max-width: 100%;
+                height: 120px;
+            }
+        }  
+    }
+
+    #about-us_carousel .carousel-control {
+        display: none;
+    }
+
+    #about-us_carousel .controls {
+        height: 100px;
+    }
+
+    #about-us_carousel .carousel-inner img {
+        display: block;
+        max-width: 100%;
+        height: auto; 
+    } 
+
+    #about-us_carousel .controls a img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -176,7 +176,7 @@
                         </p>
                  </article>                 
                 <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h3 class="read-more download-price">Скачать прайс SIENA AVORIO</h3>
+                        <a class="read-more download-price">Скачать прайс SIENA AVORIO</a>
                         <a class="footer-icon"><i class="fa fa-download" aria-hidden="true"></i></a>
                 </footer>             
             </div>

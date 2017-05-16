@@ -110,12 +110,12 @@
 								 <!-- Controls -->
 								 <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
 										 <div class="overlay"></div>
-										 <span class="vertical-text" aria-hidden="true">Предыдущая</span>
+										 <span class="vertical-text previous" aria-hidden="true">Предыдущая</span>
 										 <span class="sr-only">Previous</span>
 								 </a>
 								 <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
 										 <div class="overlay"></div>
-										 <span class="vertical-text" aria-hidden="true">Следующая</span>
+										 <span class="vertical-text next" aria-hidden="true">Следующая</span>
 										 <span class="sr-only">Next</span>
 								 </a>
 						 </div>
@@ -283,7 +283,7 @@
 								 </p>
 						 </article>
 						<footer class="description__footer col-lg-12 col-md-12 col-sm-12">
-								<h3 class="read-more">Читать полностью</h3>
+								<a class="read-more">Читать полностью</a>
 								<p class="copyright">&copy; Camelgroup итальянская мебель<p>
 						</footer>             
 				</div>
